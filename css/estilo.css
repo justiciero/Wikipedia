@@ -128,6 +128,7 @@
 }
 
 .box-search:hover{
+    outline: 2px solid #3D74E4;
     border: 1px solid #D2D3D5;
 }
 
@@ -138,7 +139,7 @@
     position: relative;
     left: 16px;
     border: none;
-    outline: none;
+    outline: none; 
 }
 
 .box-search select{
@@ -152,6 +153,7 @@
     height: 45px;
     width: 50px;
     border: none;
+    border-radius: 0 4px 4px 0;
     background-color: #36c;
     background-image: url("/img/search3.png");
     background-repeat: no-repeat;
@@ -209,25 +211,31 @@
     width: 100%;
     height: 450px;
     display: flex;
+    gap: 55px;
+    padding: 20px;
 
 }
 
 .sidebar{
-    margin: 3%;
-    width: 30%;
-    height: 83%;
+    width: 29%;
+    height: 90%;
+    padding: 10px;
+ 
+
 }
 
 .sidebar-1{
     display:flex;
     flex-wrap: wrap;
-    height: 35%;
+    height: 30%;
 }
 .sidebar-2{
     display:flex;
     flex-wrap: wrap;
-    height: 55%;
-    margin-top: 40px;
+    justify-content: center;
+    align-items: center;
+    height: 60%;
+    margin-top: 30px;
     background-color: #F8F9FA;
 }
 
@@ -238,14 +246,25 @@
     color: #54595d;
 }
 
+.title-strong{
+    margin-left: 8px;
+    width: 85%;
+}
+
+.strong-text{
+    font-size: 15px;
+    color: #54595d;
+}
+
 .sidebar1-link{
     margin-left: 50px;
-    width: 75%;
-    height: 30px;
+    width: 70%;
+    height: 80px;
 }
 
 .a-link a{
     font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Lato,Helvetica,Arial,sans-serif;
+    font-size: 13px;
     text-decoration: none;
     color: #36c;
 }
@@ -255,16 +274,9 @@
     text-decoration: underline;
 }
 
-.title-strong{
-    color: #54595D;
-    margin-top: 10px;
-    height: 30px;
-
-}
 
 .sidebar2-text{
     color: #54595d;
-    width: 80%;
     height: 70px;
     margin-left: 50px;
     margin-bottom: 30px;
@@ -287,7 +299,8 @@
 }
 
 .apple img{
-    width: 150px;
+    cursor: pointer;
+    width: 130px;
 }
 
 .sidebar1-icon{
@@ -304,8 +317,10 @@
 
 .footer-container{
     display: flex;
-    margin: 3%;
-    width: 60%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 65%;
+    height: 88%;
 }
 
 .section-div{
@@ -320,8 +335,10 @@
     display: flex;
     justify-content:left;
     align-items: center;
-    width: 90%;
-    height: 70px;
+    width: 30%;
+    height: 25%;
+  
+    cursor: pointer;
 
 }
 
@@ -354,3 +371,6 @@
     width:38px;
     height: 38px;
 }
+
+/* Mediaquery */
+
