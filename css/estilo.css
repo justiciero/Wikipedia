@@ -1,0 +1,356 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.main-wiki-logo{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+}
+
+.main-wiki-logo p{
+    position:absolute;
+    top: 80px;
+}
+
+.section-container{
+    width: 100%;
+   display: flex;
+   justify-content: center;
+}
+
+.main-sub-container{
+    width: 546px;
+    height: 325px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-content: center;
+    justify-items: center;
+
+    background-image: url("/img/wikipedia-icon.png");
+    background-repeat: no-repeat;
+    background-size: 240px;
+    background-position: center;
+}
+
+.mini-container{
+    width: 156px;
+    display: flex;
+    flex-direction: column;
+    gap:  20px;
+}
+
+
+.lan-div{
+    text-align: center;
+}
+
+.lan-div h3 a{
+    text-decoration: none;
+    color: #3D74E4;
+}
+
+.lan-div p{
+    margin: 5px;
+    color: #93989B;
+}
+
+.lan-div:hover{
+    background-color: #EAECF0;
+    cursor: pointer;
+}
+
+.lan-div h3 a:hover{
+    text-decoration: underline;
+}
+
+/* hacer el efecto redondo de wiki del lado izquierdo*/
+
+.l2{
+    position:relative;
+    right: 60px;
+}
+
+.l3{
+    position:relative;
+    right: 75px;
+}
+
+.l4{
+    position:relative;
+    right: 60px;
+}
+
+/* hacer el efecto redondo de wiki del lado derecho */
+
+.r2{
+    position:relative;
+    left: 60px;
+}
+
+.r3{
+    position:relative;
+    left: 75px;
+}
+
+.r4{
+    position:relative;
+    left: 60px;
+}
+/* FIN!!! */
+
+
+
+/* Seccion de barra de busqueda */
+.section-search{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.box-search{
+    width: 35%;
+    height:45px;
+    border:1px solid #93989B;
+}
+
+.box-search:hover{
+    border: 1px solid #D2D3D5;
+}
+
+
+.box-search input{
+    height: 43px;
+    width: 85%;
+    position: relative;
+    left: 16px;
+    border: none;
+    outline: none;
+}
+
+.box-search select{
+    width: 35px;
+    position: relative;
+    border: none;
+    background-color: #F8F9FA;
+}
+
+.div-boton button{
+    height: 45px;
+    width: 50px;
+    border: none;
+    background-color: #36c;
+    background-image: url("/img/search3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.div-boton button:hover{
+    background-color: #447FF5;
+}
+
+/* Fin!!! */
+
+/* Boton de idiomas */
+
+.lan-div-button{
+    width: 100%;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.menu-button{
+   width: 25%;
+   height: 40px;
+   background-color: #f8f9fa;
+   border: 1px solid #93989B;
+   cursor: pointer;
+}
+
+.menu-button:hover{
+    background-color: #ffff;
+}
+
+.lan-icon{
+    position: relative;
+    right: 20px;
+}
+
+
+.arrow-icon{
+    position: relative;
+    left: 15px;
+}
+
+.menu-button span{
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #3366CC;
+}
+
+/* FIN!!!!!! */
+
+.footer{
+    width: 100%;
+    height: 450px;
+    display: flex;
+
+}
+
+.sidebar{
+    margin: 3%;
+    width: 30%;
+    height: 83%;
+}
+
+.sidebar-1{
+    display:flex;
+    flex-wrap: wrap;
+    height: 35%;
+}
+.sidebar-2{
+    display:flex;
+    flex-wrap: wrap;
+    height: 55%;
+    margin-top: 40px;
+    background-color: #F8F9FA;
+}
+
+.sidebar1-text{
+    margin-left: 10px;
+    width: 80%;
+    height: 80px;
+    color: #54595d;
+}
+
+.sidebar1-link{
+    margin-left: 50px;
+    width: 75%;
+    height: 30px;
+}
+
+.a-link a{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Lato,Helvetica,Arial,sans-serif;
+    text-decoration: none;
+    color: #36c;
+}
+
+.a-link a:hover{
+    color: #36c;
+    text-decoration: underline;
+}
+
+.title-strong{
+    color: #54595D;
+    margin-top: 10px;
+    height: 30px;
+
+}
+
+.sidebar2-text{
+    color: #54595d;
+    width: 80%;
+    height: 70px;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+
+.sidebar-url{
+    width: 100%;
+    height: 65px;
+}
+
+.logo{
+    display: flex;
+    width:100% ;
+    height: 50px;
+    justify-content: center;
+}
+
+.apple{
+    width: 35%;
+}
+
+.apple img{
+    width: 150px;
+}
+
+.sidebar1-icon{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}
+
+.sidebar1-icon img{
+    width:38px;
+    height: 38px;
+}
+
+
+.footer-container{
+    display: flex;
+    margin: 3%;
+    width: 60%;
+}
+
+.section-div{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.cajita{
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    width: 90%;
+    height: 70px;
+
+}
+
+.cajita:hover{
+    background-color: #EAECF0;
+}
+
+.p-div{
+    margin-left: 10px;
+}
+
+.pp{
+    font-family: -apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Lato,Helvetica,Arial,sans-serif;
+    font-size: 13px;
+    color: #54595d;
+    margin-top: 5px;
+}
+
+.titulo{
+    color: #337BD6;
+}
+
+.div-wiki{
+    text-align: center;
+    width: 40px;
+    height: 40px;
+}
+
+.div-wiki img{
+    width:38px;
+    height: 38px;
+}
