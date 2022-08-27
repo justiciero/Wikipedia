@@ -38,7 +38,7 @@
     align-content: center;
     justify-items: center;
 
-    background-image: url("/img/wikipedia-icon.png");
+    background-image: url("../img/wikipedia-icon.png");
     background-repeat: no-repeat;
     background-size: 240px;
     background-position: center;
@@ -155,7 +155,7 @@
     border: none;
     border-radius: 0 4px 4px 0;
     background-color: #36c;
-    background-image: url("/img/search3.png");
+    background-image: url("../img/search3.png");
     background-repeat: no-repeat;
     background-position: center;
     cursor: pointer;
